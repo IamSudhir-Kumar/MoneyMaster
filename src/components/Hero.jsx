@@ -1,13 +1,17 @@
 import React from 'react';
+import VedioBg from '../assets/VedioBg.mp4';
+import './Hero.css';
 
-const Hero = ({src}) => {
-    return (
-        <div>
-            <video autoPlay loop muted >
-                <src src={src} type='video/mp4' />
-                </video>
-        </div>
-    );
-};
+function Hero() {
+  return (
+    <div className="video">
+      <video src={VedioBg} autoPlay loop muted />
+      <div className="text-overlay">
+        <h1>Welcome to My Website</h1>
+        <p>Some additional text or content here</p>
+      </div>
+    </div>
+  );
+}
 
 export default Hero;
