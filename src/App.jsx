@@ -1,12 +1,13 @@
-import './App.css'
-import Hero from './components/Hero';
-function App() {
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import Form from './components/Form.jsx'
+import HeroCenter from './components/Hero.jsx'
+const App = () => {
   return (
-    <>
-      <div className="App">
-        <Hero />
-      </div>
-    </>
+    <div>
+      <HeroCenter />
+      <Form />  
+    </div>
   )
 }
 
