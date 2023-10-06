@@ -1,5 +1,7 @@
 # MoneyMaster - Financial Literacy Made Easy
 
+![thumbnail](https://github.com/IamSudhir-Kumar/MoneyMaster/assets/112376748/6e6a616d-9952-42ce-bcdb-bb3cf3e6b15f)
+
 MoneyMaster is a React-based web application developed for an online hackathon on Devpost. The primary aim of this project is to make financial literacy easy and accessible for school and college students, empowering them to manage their personal finances effectively.
 
 ## Table of Contents
