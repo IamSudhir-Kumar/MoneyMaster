@@ -1,8 +1,376 @@
-/* vedio {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+  color: #fff;
+}
+#footer-logo {
+  color: black;
+}
+.heading {
+  display: flex;
+  justify-content:flex-start;
+  background-color: aquamarine;
+  background-size: 100%;
+}
+.heading h2{
+  margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("./assets/3.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Featured Courses Styles */
+.featured-courses {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* .featured-courses {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 } */
+
+.course-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.course-image {
+  background-image: url("./assets/school.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  line-height: 150px;
+  font-size: 24px;
+  color: #333;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#course-image2{
+  background-image: url("./assets/college.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#course-image3{
+  background-image: url("./assets/adults.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#course-image4{
+  background-image: url("./assets/group.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#course-image5{
+  background-image: url("./assets/Mentor.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#course-image6{
+  background-image: url("./assets/homeTutor.jpg");
+  background-size: cover;
+  background-position: center;
+}
+h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Add more CSS for other sections as needed */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  ul {
+    gap: 10px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 80px 0;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    font-size: 16px;
+  }
+
+  .featured-courses {
+    margin: 20px auto;
+   flex-wrap: wrap;
+  }
+
+  .course-card {
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    display: flex;
+  }
+  .hero {
+    padding: 60px 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+  }
+}
+/* Footer */
+/* Footer Styles */
+/* .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin: 10px 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #007bff;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #007bff;
+}
+
+/* Responsive Styles */
+/* @media (max-width: 768px) {
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-links ul li a {
+    font-size: 14px;
+  }
+
+  .footer-social a {
+    font-size: 20px;
+  }
+} */
+
+/* Footer Styles with Wave Animation */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  position: relative; /* Required for the wave animation */
+  overflow: hidden; /* Hide overflowing wave elements */
+}
+
+/* Wave Animation Keyframes */
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Wave Element */
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 50px; /* Adjust the height of the wave as needed */
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #333 25%, transparent 25%, transparent 50%, #333 50%, #333 75%, transparent 75%, transparent);
+  background-size: 50px 100%;
+  animation: wave 4s linear infinite;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Required for stacking above the wave */
+  z-index: 1; /* Ensure the content is on top of the wave */
+}
+
+/* Rest of your footer styles remain the same as before */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-links ul li a {
+    font-size: 14px;
+  }
+
+  .footer-social a {
+    font-size: 20px;
+  }
+}

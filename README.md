@@ -1,90 +1,70 @@
-# MoneyMaster - Financial Literacy Made Easy
+# Getting Started with Create React App
 
-![thumbnail](https://github.com/IamSudhir-Kumar/MoneyMaster/assets/112376748/6e6a616d-9952-42ce-bcdb-bb3cf3e6b15f)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-MoneyMaster is a React-based web application developed for an online hackathon on Devpost. The primary aim of this project is to make financial literacy easy and accessible for school and college students, empowering them to manage their personal finances effectively.
+## Available Scripts
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Scope](#scope)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+In the project directory, you can run:
 
-## Introduction
+### `npm start`
 
-Financial literacy is a critical skill for students of all ages. MoneyMaster is designed to provide a user-friendly platform for students to learn about personal finance, budgeting, saving, and investing. With this application, students can gain essential financial knowledge and practical skills to manage their money responsibly.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-MoneyMaster offers a range of features to help students become financially savvy:
+### `npm test`
 
-- **Educational Content**: Access to a wealth of articles, tutorials, and resources that cover various aspects of personal finance, from basic concepts to advanced investment strategies.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Budgeting Tools**: Create and manage budgets tailored to individual financial goals and needs. Visualize spending patterns and track expenses to make informed financial decisions.
+### `npm run build`
 
-- **Savings Goals**: Set and track savings goals for short-term and long-term objectives. Stay motivated to save and monitor your progress.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Investment Simulations**: Practice investing in a risk-free environment. Simulate real investment scenarios to understand the dynamics of the financial market.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Financial Calculators**: Utilize a variety of calculators for loan payments, compound interest, retirement planning, and more.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Community Forum**: Engage with a community of like-minded students, ask questions, share experiences, and learn from one another.
+### `npm run eject`
 
-## Scope
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-While the primary focus of MoneyMaster is on personal finance education for students, there are plans to expand the project to cater to student entrepreneurs and those interested in pursuing a career in finance. Some potential future features include:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **Entrepreneurship Toolkit**: Provide resources and tools to help student entrepreneurs launch and manage their startups. Cover topics like business planning, funding, and marketing.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- **Career Development**: Offer courses and guidance for students interested in finance as a career path. Include content on resume building, interview preparation, and industry insights.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- **Investment Analysis**: Enhance the investment simulation feature to include more complex financial instruments and analytics to prepare students for careers in finance.
+## Learn More
 
-## Installation
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To run MoneyMaster locally on your machine, follow these steps:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. Clone the repository to your local machine:
+### Code Splitting
 
-   ```bash
-   git clone https://github.com/IamSudhir-Kumar/moneymaster.git
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-2. Navigate to the project directory:
+### Analyzing the Bundle Size
 
-   ```bash
-   cd moneymaster
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-3. Install the dependencies:
+### Making a Progressive Web App
 
-   ```bash
-   npm install
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-4. Start the development server:
+### Advanced Configuration
 
-   ```bash
-   npm start
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-5. Open your web browser and visit `http://localhost:3000` to access MoneyMaster.
+### Deployment
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-MoneyMaster is designed to be intuitive and user-friendly. Upon accessing the application, users can register or log in to their accounts. Once logged in, they can explore educational content, create budgets, set savings goals, and simulate investments.
+### `npm run build` fails to minify
 
-## Contributing
-
-Contributions to MoneyMaster are welcome! If you'd like to contribute to this project, please follow the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md). Feel free to fork the repository and modify it to suit your needs.
-
----
-
-By contributing to MoneyMaster, you are helping to improve financial literacy among students and empower the next generation with essential financial knowledge. Thank you for being a part of this mission!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
